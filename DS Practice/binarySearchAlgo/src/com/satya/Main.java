@@ -3,8 +3,8 @@ package com.satya;
 public class Main {
     public static void main(String[] args){
 
-        int[] arr = {-18, -4, -2, 0, 2, 5, 15, 33, 47, 50, 61};
-        int ans = binarySearch(arr, 61);
+        int[] arr = {-18, -4, -2, 0, 2, 5, 5, 15, 15, 33, 47, 50, 61};
+        int ans = binarySearch(arr, 5);
         System.out.println(ans);
     }
 
